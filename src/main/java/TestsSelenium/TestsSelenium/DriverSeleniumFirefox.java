@@ -1,5 +1,9 @@
 package TestsSelenium.TestsSelenium;
 
+import java.io.File;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.internal.ProfilesIni;
@@ -32,4 +36,6 @@ public class DriverSeleniumFirefox extends DriverSelenium{
 		// maximizar la ventana
 		driver.manage().window().maximize();
 	}
+	
+	
 }
